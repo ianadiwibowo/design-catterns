@@ -12,4 +12,4 @@ Classic Gang of Four design patterns, explained in Go-Lang using cats terminolog
 
 ## Behavioral Patterns
 
-- [Strategy](https://github.com/ianadiwibowo/design-catterns/blob/master/structural/strategy/strategy.go)
+- [Strategy](https://github.com/ianadiwibowo/design-catterns/blob/master/behavior/strategy/strategy.go)

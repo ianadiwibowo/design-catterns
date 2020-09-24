@@ -15,6 +15,8 @@ func (c *Cat) EatCatFood(brand string) {
 	}
 }
 
+// SuperCat decorates (add more functionality) on top of another function
+// without changing the original function behavior.
 type SuperCat struct {
 	*Cat
 	FoodRequirementMultiplier int
@@ -26,8 +28,6 @@ func (s *SuperCat) EatCatFood(brand string) {
 	fmt.Println("Supercat asks for more food...")
 }
 
-// SuperCat decorates (add more functionality) on top of another function
-// without changing the original function behavior.
 func main() {
 	cat := &Cat{}
 	cat.EatCatFood("Whiskas") // => Yes, eating Whiskas...

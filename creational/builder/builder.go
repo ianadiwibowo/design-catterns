@@ -13,6 +13,8 @@ const (
 	Green
 )
 
+// CatBuilder is meant to help simplify the Cat object creation to
+// prevent a big and long initialization.
 type CatBuilder struct {
 	FirstName string
 	LastName  string
@@ -45,14 +47,13 @@ func (c *CatBuilder) Build() *Cat {
 	}
 }
 
+// Assume Cat object is a very big and complex object.
+// The Cat object creation is a big and long initialization.
 type Cat struct {
 	Name     string
 	Category Category
 }
 
-// Assuming Cat is a very big and complex object, CatBuilder is meant to
-// help simplify the Cat object creation to prevent a big and long
-// initialization or construction.
 func main() {
 	builder := NewCatBuilder()
 	builder.SetFirstName("Lupita").SetLastName("Neko").SetCategory(ThreeColors)
