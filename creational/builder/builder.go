@@ -50,6 +50,9 @@ type Cat struct {
 	Category Category
 }
 
+// Assuming Cat is a very big and complex object, CatBuilder is meant to
+// help simplify the Cat object creation to prevent a big and long
+// initialization or construction.
 func main() {
 	builder := NewCatBuilder()
 	builder.SetFirstName("Lupita").SetLastName("Neko").SetCategory(ThreeColors)

@@ -1,11 +1,13 @@
 # Design Catterns
 
-Classic design patterns, explained using cats terminology
+Classic Gang of Four design patterns, explained in Go-Lang using cats terminology.
 
 ## Creational Patterns
 
 - Builder
 
 ## Structural Patterns
+
+- Decorator
 
 ## Behavioral Patterns
