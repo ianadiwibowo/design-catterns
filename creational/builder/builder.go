@@ -47,7 +47,7 @@ func (c *CatBuilder) Build() *Cat {
 	}
 }
 
-// Assume Cat object is a very big and complex object.
+// Assume Cat object is a very big and complex object, with a lot of fields.
 // The Cat object creation is a big and long initialization.
 type Cat struct {
 	Name     string

@@ -9,7 +9,8 @@ Classic Gang of Four design patterns, explained in Go-Lang using cats terminolog
 ## Structural Patterns
 
 - [Decorator](https://github.com/ianadiwibowo/design-catterns/blob/master/structural/decorator/decorator.go)
+- [Proxy](https://github.com/ianadiwibowo/design-catterns/blob/master/structural/proxy/proxy.go)
 
 ## Behavioral Patterns
 
-- [Strategy](https://github.com/ianadiwibowo/design-catterns/blob/master/behavior/strategy/strategy.go)
+- [Strategy](https://github.com/ianadiwibowo/design-catterns/blob/master/behavioral/strategy/strategy.go)
