@@ -5,6 +5,7 @@ Classic Gang of Four design patterns, explained in Go-Lang using cats terminolog
 ## Creational Patterns
 
 - [Builder](https://github.com/ianadiwibowo/design-catterns/blob/master/creational/builder/builder.go)
+- [Factory Method](https://github.com/ianadiwibowo/design-catterns/blob/master/creational/factorymethod/factorymethod.go)
 
 ## Structural Patterns
 
