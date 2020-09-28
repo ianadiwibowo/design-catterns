@@ -15,5 +15,6 @@ Classic Gang of Four design patterns, explained in Go-Lang using cats terminolog
 
 ## Behavioral Patterns
 
+- [Chain of Responsibility](https://github.com/ianadiwibowo/design-catterns/blob/master/behavioral/chainofresponsibility/chainofresponsibility.go)
 - [Memento](https://github.com/ianadiwibowo/design-catterns/blob/master/behavioral/memento/memento.go)
 - [Strategy](https://github.com/ianadiwibowo/design-catterns/blob/master/behavioral/strategy/strategy.go)
