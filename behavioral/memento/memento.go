@@ -48,19 +48,19 @@ func main() {
 	}
 	caretaker.AddSnapshot(cat.CreateSnapshot()) // caretaker size = 1.
 
-	// 2nd version
+	// 2nd version.
 	cat.Name = "Pupuruneko"                     // cat => {"Pupuruneko" 17}.
 	caretaker.AddSnapshot(cat.CreateSnapshot()) // caretaker size = 2.
 
-	// 3rd version
+	// 3rd version.
 	cat.Age = 18                                // cat => {"Pupuruneko" 18}.
 	caretaker.AddSnapshot(cat.CreateSnapshot()) // caretaker size = 3.
 
-	// User can revert to the first version, e.g. because of a wrong input
+	// User can revert to the first version, e.g. because of a wrong input.
 	cat.RestoreSnapshot(caretaker.GetSnapshot(0)) // caretaker size = 3.
 	// Now cat is reverted to => {"Pupuru" 17}.
 
-	// 4th version
+	// 4th version.
 	cat.Age = 19                                // cat => {"Pupuru" 19}.
 	caretaker.AddSnapshot(cat.CreateSnapshot()) // caretaker size = 4.
 }
